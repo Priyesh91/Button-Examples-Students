@@ -27,3 +27,9 @@ $(".jQ-2").on("click", function() {
   audio.play();
 })
 
+//jQuery trigger sound playing through html element
+
+$(".jQ-3").on("click", function() {
+audioContainer.play();
+})
+
