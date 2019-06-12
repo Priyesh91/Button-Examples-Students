@@ -1,3 +1,23 @@
 body{
   background-color: aliceblue;
 }
+
+.vjs-1, .vjs-2 {
+  width: 20%;
+  margin: auto;
+  margin-bottom: 2%;
+  background-color: skyblue;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.jQ-1, .jQ-2 {
+  width: 20%;
+  margin: auto;
+  margin-bottom: 2%;
+  background-color: orange;
+  font-weight: bold;
+  font-size: 1.5em;
+  border-radius: 20%;
+  border-style: solid;
+  border-color: black;
+}

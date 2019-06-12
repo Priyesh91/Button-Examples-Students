@@ -1,50 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!-- bootstrap link -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- bootstrap link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
 
 
-<!-- style css link -->
-<link rel="stylesheet" href="./assets/style.css">
-<title>Buttons</title>
+  <!-- style css link -->
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Buttons</title>
 </head>
+
 <body>
 
-<!-- jumbotron -->
-<div class="jumbotron jumbotron-fluid bg-dark text-warning text-center ">
-  <div class="container">
-    <h1 class="display-1 font-weight-bolder">
-      Button Examples
-    </h1>
-    <p class="lead">Examples of buttons using vanilla javascript, jquery and bootstrap with jQuery</p>
+  <!-- jumbotron -->
+  <div class="jumbotron jumbotron-fluid bg-dark text-warning text-center ">
+    <div class="container">
+      <h1 class="display-1 font-weight-bolder">
+        Button Examples
+      </h1>
+      <p class="lead">Examples of buttons using vanilla javascript, jquery and bootstrap with jQuery</p>
+    </div>
   </div>
-</div>
 
-<div class="card text-center mx-5 my-2">
-    <div class="card-header font-weight-bold display-4">
-      Vanilla Javascript Button
+  <div class="card text-center mx-5 my-2">
+    <div class="card-header font-weight-bold display-4 bg-dark text-white">
+      Vanilla Javascript Buttons
     </div>
     <div class="card-body">
-      <h5 class="card-title">Button-1 triggers and alert and button-2 triggers music</h5>
+      <h5 class="card-title">Button-1 triggers alert and button-2 triggers sound</h5>
       <p class="card-text">View JS file for code</p>
     </div>
-    <div class="card-footer text-muted">
-     
+    <!-- button for vanilla js -->
+
+    <!-- triggers alert -->
+    <button class="vjs-1" onclick="vjsAlert()">Trigger Alert</button>
+    <!-- triggers sound -->
+    <button class="vjs-2" onclick="vjsSound()">Trigger Sound</button>
+    <div class="card-footer text-muted bg-dark">
     </div>
   </div>
 
+  <div class="card text-center mx-5 my-5">
+      <div class="card-header font-weight-bold display-4 bg-dark text-white">
+        jQuery Buttons
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Button-1 triggers alert and button-2 triggers sound</h5>
+        <p class="card-text">View JS file for code</p>
+      </div>
+      <!-- button for vanilla js -->
+  
+      <!-- triggers alert -->
+      <button class="jQ-1">Trigger Alert</button>
+      <!-- triggers sound -->
+      <button class="jQ-2">Trigger Sound</button>
+      <div class="card-footer text-muted bg-dark">
+      </div>
+    </div>
 
 
-<!-- jQuery link -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-<script src="./assets/app.js"></script>
+  <!-- jQuery link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script src="./assets/app.js"></script>
 </body>
+
 </html>
