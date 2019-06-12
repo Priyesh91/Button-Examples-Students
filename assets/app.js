@@ -11,6 +11,12 @@ function vjsSound() {
   audio.play();
 };
 
+//audio playing with vanilla js workaround for github pages
+var audioContainer = document.getElementById("audioContainer");
+function vjsSoundWorkAround() {
+  audioContainer.play();
+}
+
 //jQuery trigger alert
 $(".jQ-1").on("click", function() {
   alert("alert triggered by jQuery");
@@ -20,3 +26,4 @@ $(".jQ-1").on("click", function() {
 $(".jQ-2").on("click", function() {
   audio.play();
 })
+

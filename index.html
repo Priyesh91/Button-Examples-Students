@@ -16,7 +16,6 @@
 </head>
 
 <body>
-
   <!-- jumbotron -->
   <div class="jumbotron jumbotron-fluid bg-dark text-warning text-center ">
     <div class="container">
@@ -26,7 +25,11 @@
       <p class="lead">Examples of buttons using vanilla javascript and jQuery</p>
     </div>
   </div>
-
+  <!-- added audio element as a workaround for githubpages -->
+  <audio id="audioContainer">
+    <source src="./Yeah_Boy_Start.mp3" type="audio/mpeg">
+  </audio>
+  
   <div class="card text-center mx-5 my-2">
     <div class="card-header font-weight-bold display-4 bg-dark text-white">
       Vanilla Javascript Buttons
@@ -40,28 +43,30 @@
     <!-- triggers alert -->
     <button class="vjs-1" onclick="vjsAlert()">Trigger Alert</button>
     <!-- triggers sound -->
+    
     <button class="vjs-2" onclick="vjsSound()">Trigger Sound</button>
+    <button class="vjs-3" onclick="vjsSoundWorkAround()">Trigger Sound (Work around)</button>
     <div class="card-footer text-muted bg-dark">
     </div>
   </div>
 
   <div class="card text-center mx-5 my-5">
-      <div class="card-header font-weight-bold display-4 bg-dark text-white">
-        jQuery Buttons
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Button-1 triggers alert and button-2 triggers sound</h5>
-        <p class="card-text">View JS file for code</p>
-      </div>
-      <!-- button for vanilla js -->
-  
-      <!-- triggers alert -->
-      <button class="jQ-1">Trigger Alert</button>
-      <!-- triggers sound -->
-      <button class="jQ-2">Trigger Sound</button>
-      <div class="card-footer text-muted bg-dark">
-      </div>
+    <div class="card-header font-weight-bold display-4 bg-dark text-white">
+      jQuery Buttons
     </div>
+    <div class="card-body">
+      <h5 class="card-title">Button-1 triggers alert and button-2 triggers sound</h5>
+      <p class="card-text">View JS file for code</p>
+    </div>
+    <!-- button for vanilla js -->
+
+    <!-- triggers alert -->
+    <button class="jQ-1">Trigger Alert</button>
+    <!-- triggers sound -->
+    <button class="jQ-2">Trigger Sound</button>
+    <div class="card-footer text-muted bg-dark">
+    </div>
+  </div>
 
 
 
